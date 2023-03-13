@@ -1,0 +1,15 @@
+{
+
+  "manifest_version": 2,
+  "name": "Prakprog View",
+  "version": "1.0",
+
+  "description": "View files",
+  "content_scripts": [
+    {
+      "matches" : ["*://212.27.24.106/*"],
+      "js": ["codify.js"]
+    }
+  ]
+}
+
